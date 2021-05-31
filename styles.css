@@ -7,6 +7,7 @@
   --header-bg: rgba(43, 43, 43, 1);
   --h2-n-arrow: rgba(77, 77, 77, 1);
   --card-content-dark: rgba(81, 81, 81, 0.9);
+  /* --hover: rgba(255, 235, 59, 0.8); */
 }
 
 .white { color: var(--white) }
@@ -30,7 +31,12 @@ main { flex: 1;
   padding: 1rem; }
 
 a { text-decoration: none; 
-  color: inherit;}
+  color: inherit;
+  transition: 0.3s; }
+
+.active:hover {
+  color: var(--blue);
+}
 
 h1 { font-family: 'Aleo', serif;
   font-size: 3rem; }
@@ -173,10 +179,20 @@ nav {
 }
 
 .reply-icon {
+  transform: scaleX(-1);
   color: var(--h2-n-arrow);
   background-color: var(--white);
   border-radius: 50%;
   border: 16px solid var(--white);
+  transition: 0.3s;
+}
+
+.reply-icon:hover {
+  transform: scaleX(-1) scale(1.1);
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 50%;
+  border: 16px solid var(--blue);
 }
 
 .view-container {
@@ -224,8 +240,6 @@ nav {
 .material-icons-outlined.md-24 { font-size: 24px; }
 .material-icons-outlined.md-36 { font-size: 36px; }
 .material-icons-outlined.md-48 { font-size: 48px; }
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
 
 @media (min-width: 750px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
