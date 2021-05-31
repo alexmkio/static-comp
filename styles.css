@@ -28,7 +28,11 @@ body {
   }
 
 header { 
-  background: var(--header-bg) 
+  background: var(--header-bg);
+  z-index: 2;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 main { 
@@ -173,7 +177,6 @@ nav.active {
 /* CARDS */
 
 .cards {
-  /* max-width: 1200px; */
   margin: 0 auto;
   display: grid;
   grid-gap: 0.8rem;
@@ -201,7 +204,7 @@ nav.active {
 }
 
 .img-gradient {
-  position:relative;
+  position: relative;
 }
 
 .img-gradient::after {
