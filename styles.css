@@ -224,6 +224,10 @@ nav {
   margin: 1.4em 0;
 }
 
+.link:hover {
+  color: var(--blue);
+}
+
 .attachments {
   margin: 1.4em 0 0 0;
   padding: 0.5em 0;
