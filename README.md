@@ -15,20 +15,27 @@ The project can be found [here](https://alexmkio.github.io/static-comp/).
 
 ## Features
 
-![Screenshot of mobile layout]()
-* Screenshot of mobile layout
-* Notice the hamburger menu
+![Screenshot of the static comp](assets/readme/them.png)
+* Screenshot of the static comp
 
-![Screenshot of desktop layout]()
-* Screenshot of desktop layout
-* Notice the card and reply icon hover
+![Screenshot of my creation](assets/readme/us.png)
+* Screenshot of my creation
 
-![Screenshot of tablet layout]()
-* Screenshot of tablet layout
-* Notice the hover over personal videos
+![Screenshot of mobile layout](assets/readme/mobile.png)
+* Screenshot of mobile layout in 428x926 (iPhone 12 Pro Max)
+* Notice the on-hover color of the link in the card
 
-![Screenshot of provided comp]()
-* Screenshot of provided comp
+![Screenshot of mobile layout](assets/readme/mobile-menu.png)
+* Screenshot of mobile layout in 428x926 (iPhone 12 Pro Max)
+* Notice the on-hover color of "personal videos"
+
+![Screenshot of desktop layout](assets/readme/desktop.png)
+* Screenshot in the most popular desktop resolution (1920x1080)
+* Notice the on-hover color of "personal videos"
+
+![Screenshot of tablet layout](assets/readme/tablet.png)
+* Screenshot of tablet layout in 834x1194 (iPad Pro 11" 4th Gen)
+* Notice the on-hover color of "Admin Username"
 
 
 ## Contributors
@@ -40,12 +47,15 @@ This application was built by [Alex Kio](https://github.com/alexmkio/); a Front 
 This application uses HTML and CSS.
 
 ## Reflections on Challenges and Wins
-* Win: 
-* Challenge: 
+* Win: I challenged myself to make the best product I could and I think I did a decent job. 
+I would have, and wanted to, take it easier on this project but I know that my weakest skill is CSS. 
+I felt like putting in a tough weekend with this project would pay dividends in the future. 
+I already feel more confident and familiar with Grid, hover behavior, hamburger menus, and responsiveness. All wins!
+* Challenge: I am happy that I put in good work on this project and I feel proud of the product but I wish I had another day to relax before getting another project. Hopefully I made the right decision. Also, I ran out of time to refactor, lint, learn about and implement a reset file, etc. And I feel like there are wayyyyyyyy too many divs. What's your assessment of that?
 
 ## Future Additions
 
 I am unlikely to add any future functionality to this application, but here are some ideas for features that might improve it:
 
-* 
-* 
+* Cross compatibility with Firefox, Safari, Chrome
+* Use of normalize or reset file in CSS
