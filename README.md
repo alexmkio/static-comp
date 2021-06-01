@@ -31,7 +31,6 @@ The project can be found [here](https://alexmkio.github.io/static-comp/).
 
 ![Screenshot of desktop layout](assets/readme/desktop.png)
 * Screenshot in the most popular desktop resolution (1920x1080)
-* Notice the on-hover color of "personal videos"
 
 ![Screenshot of tablet layout](assets/readme/tablet.png)
 * Screenshot of tablet layout in 834x1194 (iPad Pro 11" 4th Gen)
