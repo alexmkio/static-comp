@@ -3,11 +3,299 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css>
-    <link rel="stylesheet" href="./styles.css">
-    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Aleo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <title>Static Comp - 2Win!</title>
+    <meta name="theme-color" content="#000">
   </head>
   <body>
+    <header>
+      <div class="top-nav">
+        <div class="hamburger" id="hamburger">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div class="admin">
+          <div>
+            <a href="#"><span class="material-icons-outlined md-24 person">person</span></a>
+          </div>
+          <div>
+            <a href="#">Admin Username</a>
+          </div>
+          <div>
+            <a href="#"><div class="arrow-down"></div></a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-and-logo">
+        <nav>
+          <div class="nav-element lt-grey">
+            <div><span class="material-icons-outlined md-24">share</span></div>
+            <div class="icon-spacing">Shares</div>
+          </div>
+          <div class="nav-element dk-grey active">
+            <div><a href="#"><span class="material-icons-outlined md-24 blue">list</span></a></div>
+            <div class="icon-spacing"><a href="#">Playlists</a></div>
+          </div>
+          <div class="nav-element dk-grey active">
+            <div><a href="#"><span class="material-icons-outlined md-24 blue">person</span></a></div>
+            <div class="icon-spacing"><a href="#">Personal Videos</a></div>
+          </div>
+        </nav>
+        <div class="logo">
+          <h1>2Win!</h1><span class="material-icons-outlined md-48">local_fire_department</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h2>Shares</h2>
+      <div class="cards">
+        
+        <div class="card">
+          <div class="card-top">
+            <div class="img-gradient">
+              <img src="assets/1.jpg">
+            </div>
+            <div class="overlay">
+              <div>
+                <span class="material-icons-outlined md-36 reply-icon">reply</span>
+              </div>
+              <div class="view-container">
+                <div class="overlay-views tiny-caps">Views</div>
+                <div class="overlay-number">02</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Recipeint's Namehere</h3>
+            <h4>Monday 01/23/16 10:22am</h4>
+            <div class="link">
+              <a href="https://genius.com/Propagandhi-without-love-lyrics" target="_blank">https://genius.com/Propagandhi-without-love-lyrics</a>
+            </div>
+            <dl>
+              <dt class="tiny-caps">Playlist</dt>
+              <dd><h3>Name of Playlist</h3></dd>
+              <dt class="attachments tiny-caps">Attachments</dt>
+              <dd class="number">04</dd>
+            </dl>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-top">
+            <div class="img-gradient">
+              <img src="assets/2.jpg">
+            </div>
+            <div class="overlay">
+              <div>
+                <span class="material-icons-outlined md-36 reply-icon">reply</span>
+              </div>
+              <div class="view-container">
+                <div class="overlay-views tiny-caps">Views</div>
+                <div class="overlay-number">02</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Recipeint's Namehere</h3>
+            <h4>Monday 01/23/16 10:22am</h4>
+            <div class="link">
+              <a href="https://genius.com/Propagandhi-without-love-lyrics" target="_blank">https://genius.com/Propagandhi-without-love-lyrics</a>
+            </div>
+            <dl>
+              <dt class="tiny-caps">Playlist</dt>
+              <dd><h3>Name of Playlist</h3></dd>
+              <dt class="attachments tiny-caps">Attachments</dt>
+              <dd class="number">04</dd>
+            </dl>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-top">
+            <div class="img-gradient">
+              <img src="assets/3.jpg">
+            </div>
+            <div class="overlay">
+              <div>
+                <span class="material-icons-outlined md-36 reply-icon">reply</span>
+              </div>
+              <div class="view-container">
+                <div class="overlay-views tiny-caps">Views</div>
+                <div class="overlay-number">02</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Recipeint's Namehere</h3>
+            <h4>Monday 01/23/16 10:22am</h4>
+            <div class="link">
+              <a href="https://genius.com/Propagandhi-without-love-lyrics" target="_blank">https://genius.com/Propagandhi-without-love-lyrics</a>
+            </div>
+            <dl>
+              <dt class="tiny-caps">Playlist</dt>
+              <dd><h3>Name of Playlist</h3></dd>
+              <dt class="attachments tiny-caps">Attachments</dt>
+              <dd class="number">04</dd>
+            </dl>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-top">
+            <div class="img-gradient">
+              <img src="assets/4.jpg">
+            </div>
+            <div class="overlay">
+              <div>
+                <span class="material-icons-outlined md-36 reply-icon">reply</span>
+              </div>
+              <div class="view-container">
+                <div class="overlay-views tiny-caps">Views</div>
+                <div class="overlay-number">02</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Recipeint's Namehere</h3>
+            <h4>Monday 01/23/16 10:22am</h4>
+            <div class="link">
+              <a href="https://genius.com/Propagandhi-without-love-lyrics" target="_blank">https://genius.com/Propagandhi-without-love-lyrics</a>
+            </div>
+            <dl>
+              <dt class="tiny-caps">Playlist</dt>
+              <dd><h3>Name of Playlist</h3></dd>
+              <dt class="attachments tiny-caps">Attachments</dt>
+              <dd class="number">04</dd>
+            </dl>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-top">
+            <div class="img-gradient">
+              <img src="assets/5.jpg">
+            </div>
+            <div class="overlay">
+              <div>
+                <span class="material-icons-outlined md-36 reply-icon">reply</span>
+              </div>
+              <div class="view-container">
+                <div class="overlay-views tiny-caps">Views</div>
+                <div class="overlay-number">02</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Recipeint's Namehere</h3>
+            <h4>Monday 01/23/16 10:22am</h4>
+            <div class="link">
+              <a href="https://genius.com/Propagandhi-without-love-lyrics" target="_blank">https://genius.com/Propagandhi-without-love-lyrics</a>
+            </div>
+            <dl>
+              <dt class="tiny-caps">Playlist</dt>
+              <dd><h3>Name of Playlist</h3></dd>
+              <dt class="attachments tiny-caps">Attachments</dt>
+              <dd class="number">04</dd>
+            </dl>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-top">
+            <div class="img-gradient">
+              <img src="assets/6.jpg">
+            </div>
+            <div class="overlay">
+              <div>
+                <span class="material-icons-outlined md-36 reply-icon">reply</span>
+              </div>
+              <div class="view-container">
+                <div class="overlay-views tiny-caps">Views</div>
+                <div class="overlay-number">02</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Recipeint's Namehere</h3>
+            <h4>Monday 01/23/16 10:22am</h4>
+            <div class="link">
+              <a href="https://genius.com/Propagandhi-without-love-lyrics" target="_blank">https://genius.com/Propagandhi-without-love-lyrics</a>
+            </div>
+            <dl>
+              <dt class="tiny-caps">Playlist</dt>
+              <dd><h3>Name of Playlist</h3></dd>
+              <dt class="attachments tiny-caps">Attachments</dt>
+              <dd class="number">04</dd>
+            </dl>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-top">
+            <div class="img-gradient">
+              <img src="assets/7.jpg">
+            </div>
+            <div class="overlay">
+              <div>
+                <span class="material-icons-outlined md-36 reply-icon">reply</span>
+              </div>
+              <div class="view-container">
+                <div class="overlay-views tiny-caps">Views</div>
+                <div class="overlay-number">04</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Recipeint's Namehere</h3>
+            <h4>Monday 01/23/16 10:22am</h4>
+            <div class="link">
+              <a href="https://genius.com/Propagandhi-without-love-lyrics" target="_blank">https://genius.com/Propagandhi-without-love-lyrics</a>
+            </div>
+            <dl>
+              <dt class="tiny-caps">Playlist</dt>
+              <dd><h3>Name of Playlist</h3></dd>
+              <dt class="attachments tiny-caps">Attachments</dt>
+              <dd class="number">04</dd>
+            </dl>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-top">
+            <div class="img-gradient">
+              <img src="assets/8.jpg">
+            </div>
+            <div class="overlay">
+              <div>
+                <span class="material-icons-outlined md-36 reply-icon">reply</span>
+              </div>
+              <div class="view-container">
+                <div class="overlay-views tiny-caps">Views</div>
+                <div class="overlay-number">01</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Recipeint's Namehere</h3>
+            <h4>Monday 01/23/16 10:22am</h4>
+            <div class="link">
+              <a href="https://genius.com/Propagandhi-without-love-lyrics" target="_blank">https://genius.com/Propagandhi-without-love-lyrics</a>
+            </div>
+            <dl>
+              <dt class="tiny-caps">Playlist</dt>
+              <dd><h3>Name of Playlist</h3></dd>
+              <dt class="attachments tiny-caps">Attachments</dt>
+              <dd class="number">04</dd>
+            </dl>
+          </div>
+        </div>
 
+      </div>      
+    </main>
+    <script src="main.js"></script>
   </body>
 </html>
